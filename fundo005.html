@@ -8,19 +8,30 @@
 <style>
     body {
         height: 100vh;
-        background-color: dimgrey;
-        background-image: url('imagens/wallpaper02.jpg');
-        background-position: center center;
-        background-repeat: no-repeat;
+        /*
+        background-color: dimgrey; Cor de fundo
+        background-image: url('imagens/wallpaper02.jpg'); Imagem de Fundo
+        background-position: center center; Imagem no centro
+        background-repeat: no-repeat; Não repetir imagem
         background-size: cover;
+        background-attachment: fixed; Imagem fixa
+
+        /*Shorthand - background
+        Color > image > position > repeat > {size} > attachment
+        */
+
+        background: dimgray url('imagens/wallpaper02.jpg') center center no-repeat fixed;
+        background-size: cover;
+
     }
     main {
         background-color: white;
-        width: 500px;
+        max-width: 700px;
         padding: 20px;
         margin: auto;
         border-radius: 10px;
         border: 2px solid black;
+
     }
 </style>
 
@@ -28,6 +39,9 @@
 <body>
     <main>
         <h1>Teste de Imagem de Fundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic possimus perspiciatis fuga. Ex totam quaerat reprehenderit labore deserunt quidem dignissimos beatae ullam corrupti atque modi, rerum, ad possimus doloremque molestias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod soluta illum quis perferendis, dicta hic reiciendis aliquid voluptatem veritatis blanditiis illo voluptatibus culpa? Corporis earum magni nesciunt, tempore similique laborum.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic possimus perspiciatis fuga. Ex totam quaerat reprehenderit labore deserunt quidem dignissimos beatae ullam corrupti atque modi, rerum, ad possimus doloremque molestias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod soluta illum quis perferendis, dicta hic reiciendis aliquid voluptatem veritatis blanditiis illo voluptatibus culpa? Corporis earum magni nesciunt, tempore similique laborum.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic possimus perspiciatis fuga. Ex totam quaerat reprehenderit labore deserunt quidem dignissimos beatae ullam corrupti atque modi, rerum, ad possimus doloremque molestias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod soluta illum quis perferendis, dicta hic reiciendis aliquid voluptatem veritatis blanditiis illo voluptatibus culpa? Corporis earum magni nesciunt, tempore similique laborum.</p>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic possimus perspiciatis fuga. Ex totam quaerat reprehenderit labore deserunt quidem dignissimos beatae ullam corrupti atque modi, rerum, ad possimus doloremque molestias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod soluta illum quis perferendis, dicta hic reiciendis aliquid voluptatem veritatis blanditiis illo voluptatibus culpa? Corporis earum magni nesciunt, tempore similique laborum.</p>
     </main>
 </body>
